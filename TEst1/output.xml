@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.7.5 on win32)" generated="20220309 14:45:58.740" rpa="false" schemaversion="2">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\ntnhat\.vscode\extensions\robocorp.robotframework-lsp-0.41.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser">
+<arg>${URL}</arg>
+<msg timestamp="20220309 14:46:00.555" level="FAIL">No keyword with name 'Open Available Browser' found.</msg>
+<status status="FAIL" starttime="20220309 14:46:00.555" endtime="20220309 14:46:00.555"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220309 14:46:00.555" endtime="20220309 14:46:00.555"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20220309 14:46:00.557" endtime="20220309 14:46:00.557"/>
+</kw>
+<kw name="Pause Execution">
+<status status="NOT RUN" starttime="20220309 14:46:00.559" endtime="20220309 14:46:00.559"/>
+</kw>
+<status status="PASS" starttime="20220309 14:45:58.820" endtime="20220309 14:49:59.997"/>
+</kw>
+<status status="PASS" starttime="20220309 14:45:58.820" endtime="20220309 14:49:59.998"/>
+</test>
+<status status="PASS" starttime="20220309 14:45:58.741" endtime="20220309 14:50:00.000"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
